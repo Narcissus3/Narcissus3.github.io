@@ -11,4 +11,11 @@
         <tag>web</tag>
       </tags>
   </entry>
+  <entry>
+    <title>vbs</title>
+    <url>/2020/09/24/vbs/</url>
+    <content><![CDATA[<p>On Error Resume Next<br>Dim xda,ye<br>set xda=createobject(“wscript.shell”)<br>for i =1 to 200</p>
+<p>wscript.sleep 70<br>xda.AppActivate<br>xda.sendKeys “^v”<br>xda.sendKeys “%s”<br>next<br>wscript.quit</p>
+]]></content>
+  </entry>
 </search>
